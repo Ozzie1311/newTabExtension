@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+main#main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+}
+
+h1 {
+  /* border: 1px solid white; */
+  text-align: center;
+}
+
+div.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.2em;
+}
+
+.crypto-head {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-title {
+  margin-left: 6px;
+}
+
+.crypto-information {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75em;
+  padding-left: 32px;
+  gap: 8px;
+}
+
+.crypto-information span {
+  margin-left: 4px;
+}
