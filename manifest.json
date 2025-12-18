@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Dashboard Oswaldo",
+  "version": "1.0.0",
+  "description": "Tab Extension",
+  "action": {
+    "default_icon": "shield.png"
+  },
+  "chrome_url_overrides": {
+    "new_tab": "index.html"
+  }
+}

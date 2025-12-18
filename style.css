@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,6 +9,14 @@
 }
 
 body {
+  background: no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px #1a1a1a;
+  font-family: 'Inter', sans-serif;
 }
 
 main#main {
@@ -16,12 +26,12 @@ main#main {
   justify-content: center;
   height: 100vh;
   justify-content: space-between;
-  background-color: #1a1a1a;
 }
 
 h1 {
   /* border: 1px solid white; */
   text-align: center;
+  font-size: 4rem;
 }
 
 div.top {
@@ -50,3 +60,57 @@ div.top {
 .crypto-information span {
   margin-left: 4px;
 }
+
+.bottom {
+  /* border: 1px solid white; */
+  padding: 2em;
+}
+
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+
+.weather > img {
+  width: 70px;
+}
+
+.weather p {
+  margin: 0;
+}
+
+p.city {
+  width: 100%;
+  text-align: right;
+  margin-top: -10px;
+  margin-right: 13px;
+  letter-spacing: 1.1px;
+}
+
+p.temperature {
+  font-size: 1.7rem;
+  margin-left: -10px;
+  margin-top: 13px;
+}
+
+h2#date {
+  text-align: center;
+  borde
+}
+
+/* 
+    p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
+*/
